@@ -14,8 +14,11 @@
 
   <body>
     <%= render partial: "shared/navbar" %>
-    <div class="container">
-      <%= render partial: "shared/flash" %>
+    <div>
+        <%= render partial: "shared/flash" %>
+    </div>
+    
+    <div class="container align-items-center justify-content-center">
       <%= yield %>
     </div>
   </body>
